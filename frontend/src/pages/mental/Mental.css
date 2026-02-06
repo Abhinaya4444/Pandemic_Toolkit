@@ -1,0 +1,79 @@
+/* HEADER */
+.mental-header {
+  margin-bottom: 25px;
+}
+
+.mental-header h1 {
+  color: #0f4c81;
+}
+
+.mental-header p {
+  max-width: 750px;
+  color: #555;
+}
+
+/* SECTION */
+.mental-section {
+  margin-top: 30px;
+  background: #f5f9ff;
+  padding: 22px;
+  border-radius: 14px;
+  border-left: 5px solid #1976d2;
+}
+
+.mental-section h3 {
+  margin-bottom: 10px;
+  color: #0f4c81;
+}
+
+.mental-list {
+  padding-left: 20px;
+  line-height: 1.7;
+}
+
+/* ALERT */
+.mental-alert {
+  margin-top: 30px;
+  background: #fff8e1;
+  padding: 22px;
+  border-radius: 14px;
+  border-left: 6px solid #f9a825;
+}
+
+.mental-alert h3 {
+  color: #f57f17;
+  margin-bottom: 8px;
+}
+
+/* HELPLINES */
+.mental-helplines {
+  margin-top: 30px;
+}
+
+.helpline-card {
+  background: #e3f2fd;
+  padding: 15px;
+  border-radius: 12px;
+  border-left: 5px solid #1976d2;
+  margin-bottom: 10px;
+}
+
+/* NOTE */
+.mental-note {
+  margin-top: 30px;
+  text-align: center;
+  font-weight: 500;
+  color: #555;
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+  .mental-section,
+  .mental-alert {
+    padding: 18px;
+  }
+
+  .mental-header h1 {
+    font-size: 24px;
+  }
+}
